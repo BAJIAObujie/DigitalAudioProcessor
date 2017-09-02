@@ -5,10 +5,10 @@ It includes following function:
 3. The last function is playing piano by clicking screen, But this function does not be user-friendly. It, indeed, can play if running in the computer, but in the phone, it doesn't perform that exactly.
 
 # MainWindow
-<img src="Pictures/One.png" width="540" height="960" />
+<img src="Pictures/One.png" width="360" height="640" />
 # Function one.
-![Image](Pictures/Two.png)
+<img src="Pictures/Two.png" width="360" height="640" />
 # Function two.
-![Image](Pictures/Three.png)
+<img src="Pictures/Three.png" width="360" height="640" />
 
 
