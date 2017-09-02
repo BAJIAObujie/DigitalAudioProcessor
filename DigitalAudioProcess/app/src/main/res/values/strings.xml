@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DigitalAudioProcess</string>
+    <string name="title_activity_noise_modifier">NoiseModifier</string>
+</resources>

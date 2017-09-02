@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="  PianoPlay"
+            android:id="@+id/textView3"
+            android:textSize="32dp"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回主界面"
+                android:id="@+id/btnback"
+                android:onClick="btnback"
+                android:layout_gravity="right" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnupC"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="65dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnupD"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="16dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnupF"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="95dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnupG"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnupA"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnC"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.01" />
+
+        <ImageButton
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnD"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.01" />
+
+        <ImageButton
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnE"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.01" />
+
+        <ImageButton
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.01" />
+
+        <ImageButton
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnG"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.01" />
+
+        <ImageButton
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnA"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.01" />
+
+        <ImageButton
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnB"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.01" />
+
+    </LinearLayout>
+
+</LinearLayout>
