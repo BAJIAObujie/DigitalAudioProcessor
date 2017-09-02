@@ -10,3 +10,5 @@ It includes following function:
 ![Image](Pictures/Two.png)
 # Function two.
 ![Image](Pictures/Three.png)
+
+<img src="Pictures/One.png" width="72" height="72" />
